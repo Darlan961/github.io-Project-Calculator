@@ -1,43 +1,44 @@
 <!DOCTYPE html>
-<html lang="pt-br">
+<html lang="PT-BR">
 
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link rel="stylesheet" href="css/style.css">
-    <link rel='stylesheet' href="css/nomalize.css">
-    <script src="js/html5shiv.js"></script>
+    <link rel="stylesheet" href="css/nomalize.css[">
+    <link href="css/desktop.css" rel="stylesheet" media="screen and (min-width:900px) and (max-width:3500px )">
 
-    <title>App calculador</title>
+    <title> App calculadora com JavaScript </title>
+
 </head>
 
 <body>
 
     <header>
 
-        <img class="logo" src="img/logo.png" alt="Logo" title="Logo">
-        <a href="https://github.com/Darlan961" target="blank">
-            <img class="logo2" src=" img/img_github.png" alt="Logo" title="Logo">
-        </a>
-        <h1>App Calculadora</h1>
-    </header>
+        <div id="content-header">
+            <img class="img1" src="img/logo.png">
 
+            <a href="https://github.com/Darlan961/github.io-Project-Calculator" target="blank">
+                <img class="img2" src="img/img_github.png">
+            </a>
+            <h1>App calculadora</h1>
+        </div>
+
+    </header>
 
     <main>
 
-        <article>
+        <article id="content-1">
 
-
-            <div id="info">
-                <img class="mypicture" src="img/img.jpg" alt="Darlan" title="Desenvolvedor">
-
-                <ul>
-                    <li> Desenvolvedor: José Darlan</li>
-                    <li> Email: darlan.simoes19@gmail.com</li>
-                    <li> GitHub: <a href="https://github.com/Darlan961" target="blank"> https://github.com/Darlan961
-                        </a> </li>
-                </ul>
+            <img src="img/img.jpg" alt="">
+            <ul>
+                <li> Desenvolvedor: José Darlan</li>
+                <li> Email: josedarlan961@gmail.com</li>
+                <li> GitHub: <a href="https://github.com/Darlan961/github.io-Project-Calculator" target="blank">
+                        https://github.com/Darlan961
+                    </a> </li>
+            </ul>
             </div>
 
         </article>
@@ -83,7 +84,7 @@
                         <button onclick=" calcular('number', 0)" class="btn-big" type="button">0</button>
                         <button onclick=" calcular('opd', '.')" type="button">.</button>
 
-                        <button disabled id="button-especific" type="button"> <span> ... </span></button>
+                        <button disabled id="button-especific" type="button"> <span> ...</span> </button>
                     </div>
 
                 </div>
@@ -92,30 +93,26 @@
 
         </div>
 
-
-
         <article>
-
             <section>
                 <h2>Sobre o projeto</h2>
                 <p>
                     O projeto App calculadora tem o intuito de mostrar uma aplicação básica feita com as tecnologias
                     HTML5,
-                    JavaScript e CSS3.
+                    CSS3 e JavaScript.
                 </p>
             </section>
-
-
         </article>
+
     </main>
 
 
     <footer>
-        <span> &copy; José Darlan 2020</span>
+        <span> &copy; copyright 2020</span>
 
     </footer>
 
+    <script src="js/script-calculator.js"></script>
 </body>
-<script src="js/script-calculator.js"></script>
 
 </html>

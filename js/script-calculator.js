@@ -4,7 +4,6 @@ function calcular(_$_type, _$_value) {
     if (_$_type === 'number') {
 
         // Recuperando e atribuindo o Valor que foi passado como parâmetro da fuction e concatenando com o valor já existente no campo.
-
         document.getElementById('result-value').value += _$_value;
 
 
