@@ -1,0 +1,19 @@
+header {
+    text-align: justify;
+}
+
+main {
+    padding-bottom: 200px;
+
+
+}
+
+#content-calculator {
+    flex-basis: 50%;
+}
+
+article {
+    flex-basis: 35%;
+    text-align: center;
+
+}

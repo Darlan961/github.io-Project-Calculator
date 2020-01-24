@@ -1,0 +1,35 @@
+ #content-header {
+     width: 100%;
+ }
+
+ .img2 {
+     margin-left: 80px;
+ }
+
+ #content-header h1 {
+     letter-spacing: 0.3em;
+ }
+
+ main {
+     padding-bottom: 500px;
+
+ }
+
+ #content-calculator {
+     flex-basis: 90%;
+     order: -1;
+ }
+
+ article {
+     flex-basis: 100%;
+     text-align: center;
+
+ }
+
+ #content-1 {
+     order: 2;
+ }
+
+ #content-2 {
+     order: 1;
+ }

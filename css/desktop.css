@@ -36,6 +36,7 @@
  }
 
  main {
+
      width: 90%;
      margin: auto;
      margin-top: 1%;
@@ -46,7 +47,10 @@
      box-shadow: 0px 0px 4px #000;
      display: flex;
      flex-direction: row;
+     flex-wrap: wrap;
      justify-content: space-around;
+
+
  }
 
  article,
@@ -149,18 +153,18 @@
 
  /*********************
 End style calculadora */
- article section {
+ #content-2 section {
      padding: 10px;
      color: #fff;
  }
 
- article section h2 {
+ #content-2 article section h2 {
      text-align: center;
-     letter-spacing: 0.4em;
+     letter-spacing: 0.1em;
      margin-bottom: 5%;
  }
 
- article section p {
+ #content-2 section p {
      text-align: center;
      line-height: 1.5em;
      letter-spacing: 0.1em;
